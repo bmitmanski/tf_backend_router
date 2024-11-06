@@ -22,6 +22,7 @@ Module Input Variables
 - `platform_config` - (map) - **REQUIRED** - Mergermarket Platform config dictionary (see tests for example one)
 - `dns_domain` - (string) - **REQUIRED** - domain to be used when looking up SSL Certificate
 - `alb_internal` - (bool) - If true, the ALB will be internal (default: `true`)
+- `idle_timeout` - (string) - The time in seconds that the connection is allowed to be idle (default: `60`)
 
 Usage
 -----
